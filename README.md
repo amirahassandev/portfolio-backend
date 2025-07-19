@@ -28,4 +28,4 @@ Feel free to explore the repositories and reach out if you'd like to collaborate
 ---
 
 **Let's connect!**  
-[LinkedIn](www.linkedin.com/in/amira-hassan-0371b3231) | [GitHub]([https://github.com/your-username](https://github.com/amirahassandev/)) | [Email](amirahassansobhi@gmail.com)
+[LinkedIn](www.linkedin.com/in/amira-hassan-0371b3231) | [GitHub](https://github.com/amirahassandev/) | [Email](amirahassansobhi@gmail.com)
