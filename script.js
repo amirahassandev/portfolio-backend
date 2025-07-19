@@ -131,8 +131,8 @@ var certificate_links =
         'DJango/Full_stack%20Using%20Python.jpg', 
         'DJango/Python%20Programming%20Basics.pdf',
         'TypeScript%20Foundamentals.pdf',
-        'FullStack/Modern%20JS.pdf',
-        'FullStack/Javascript.pdf',
+        'Modern%20JS.pdf',
+        'Javascript.pdf',
         'HTML%20%26%20CSS.pdf',
         'Mastering_MYSQL.pdf',
         'web_development.pdf'
