@@ -94,7 +94,7 @@ projects_net.forEach(project => {
                 <div class = "overlay">
                     <p>${titles_net[i]}</p>
                 </div>
-                <img src="assets/.net/${project}" alt="${altImg_net[i]}">
+                <img src="assets/dotnet/${project}" alt="${altImg_net[i]}">
             </div>
         </a>`
         ;
