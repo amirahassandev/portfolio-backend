@@ -10,7 +10,7 @@ var i = 0;
 projects_JavaScript.forEach(project => {
     if(i > 2){
         JavaScript__grid.innerHTML += `
-        <a href="https://github.com/AmiraHassan2003/${links_JavaScript[i]}">
+        <a href="https://github.com/amirahassandev/${links_JavaScript[i]}">
             <div class="project__card">
                 <div class = "overlay">
                     <p>${titles_JavaScript[i]}</p>
@@ -21,7 +21,7 @@ projects_JavaScript.forEach(project => {
     }
     else{
         JavaScript__grid.innerHTML += `
-        <a href="https://amirahassan2003.github.io/${links_JavaScript[i]}">
+        <a href="https://amirahassandev.github.io/${links_JavaScript[i]}">
             <div class="project__card">
                 <div class = "overlay">
                     <p>${titles_JavaScript[i]}</p>
@@ -46,7 +46,7 @@ django__grid.innerHTML = '';
 var i = 0;
 projects_django.forEach(project => {
     django__grid.innerHTML += `
-        <a href="https://github.com/AmiraHassan2003/${links_django[i]}">
+        <a href="https://github.com/amirahassandev/${links_django[i]}">
             <div class="project__card">
                 <div class = "overlay">
                     <p>${titles_django[i]}</p>
@@ -68,7 +68,7 @@ cSharp__grid.innerHTML = '';
 var i = 0;
 projects_cSharp.forEach(project => {
     cSharp__grid.innerHTML += `
-        <a href="https://github.com/AmiraHassan2003/${links_cSharp[i]}">
+        <a href="https://github.com/amirahassandev/${links_cSharp[i]}">
             <div class="project__card">
                 <div class = "overlay">
                     <p>${titles_cSharp[i]}</p>
@@ -89,7 +89,7 @@ net__grid.innerHTML = '';
 var i = 0;
 projects_net.forEach(project => {
     net__grid.innerHTML += `
-        <a href="https://github.com/AmiraHassan2003/${links_net[i]}">
+        <a href="https://github.com/amirahassandev/${links_net[i]}">
             <div class="project__card">
                 <div class = "overlay">
                     <p>${titles_net[i]}</p>
@@ -112,7 +112,7 @@ springboot__grid.innerHTML = '';
 var i = 0;
 projects_springboot.forEach(project => {
     springboot__grid.innerHTML += `
-        <a href="https://github.com/AmiraHassan2003/${links_springboot[i]}">
+        <a href="https://github.com/amirahassandev/${links_springboot[i]}">
             <div class="project__card">
                 <div class = "overlay">
                     <p>${titles_springboot[i]}</p>
@@ -174,7 +174,7 @@ var i = 0;
 certificate_titles.forEach(certificate => {
     certification__grid.innerHTML += `
         <div class="certification__card">
-            <h4><a style="color: #FF6B35" href="https://github.com/AmiraHassan2003/Certificates/blob/main/FullStack/${certificate_links[i]}">${certificate}</a></h4>
+            <h4><a style="color: #FF6B35" href="https://github.com/amirahassandev/Certificates/blob/main/FullStack/${certificate_links[i]}">${certificate}</a></h4>
             <p>
             ${certificate_desc[i]}
             </p>
