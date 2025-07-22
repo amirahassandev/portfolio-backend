@@ -135,7 +135,8 @@ var certificate_links =
         'Javascript.pdf',
         'HTML%20%26%20CSS.pdf',
         'Mastering_MYSQL.pdf',
-        'web_development.pdf'
+        'web_development.pdf',
+        '.Net/ASPDotNet_C%23Programming_JS_HTML.pdf',
     ];
 
 var certificate_titles = 
@@ -148,7 +149,8 @@ var certificate_titles =
         'JavaScript (mahara-tech)',
         'HTML & CSS (mahara-tech)',
         'Mastering MYSQL (Udemy)',
-        'WEB DEVELOPMENT (udacity)'
+        'WEB DEVELOPMENT (udacity)',
+        'ASP .Net C# Programming with JS and HTML (Udemy)',
 
     ];
 
@@ -163,7 +165,7 @@ var certificate_desc =
     'User completed a course in HTML and CSS, gaining hands-on experience in building responsive web pages, structuring content with HTML, and styling with CSS.',
     'Gained expertise in MySQL database creation, management, and query optimization. Learned to design efficient relational databases, write complex SQL queries, and manage data effectively using MySQL.',
     'Gained practical experience in building responsive websites using HTML and advanced CSS. Learned to customize and manage websites with WordPress, culminating in a final project that brought together design, structure, and functionality.',
-
+    'I completed a Udemy course covering HTML, JavaScript, and ASP.NET with C#. I used it to refresh my JavaScript and OOP knowledge, while also strengthening my understanding of C# syntax and full-stack web development basics.',
 ];
 
 
