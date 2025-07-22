@@ -102,17 +102,17 @@ projects_net.forEach(project => {
 });
 
 
-var projects_springboot = ['E-commerce.png'];
-var altImg_springboot = ['E-commerce'];
-var links_springboot = ['Project_Software_two'];
-var titles_springboot = ['E-commerce'];
+var projects_springboot = ['E-commerce.png', 'TryAndBuy.png'];
+var altImg_springboot = ['E-commerce', 'Try&Buy'];
+var links_springboot = ['AmiraHassan2003/Project_Software_two', 'amirahassandev/TryAndBuy_GradProject'];
+var titles_springboot = ['E-commerce', 'Try&Buy (Graduation Project)'];
 
 var springboot__grid = document.getElementById("springboot__grid");
 springboot__grid.innerHTML = '';
 var i = 0;
 projects_springboot.forEach(project => {
     springboot__grid.innerHTML += `
-        <a href="https://github.com/AmiraHassan2003/${links_springboot[i]}">
+        <a href="https://github.com/${links_springboot[i]}">
             <div class="project__card">
                 <div class = "overlay">
                     <p>${titles_springboot[i]}</p>
