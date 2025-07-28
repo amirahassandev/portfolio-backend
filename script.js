@@ -1,38 +1,31 @@
 
 var projects_JavaScript = ['E-commerce-vanillaJS.png', 'Kasper.png', 'todoList.png', 'registration.png'];
-var altImg_JavaScript = ['E-commerce-vanillaJS', 'Kasper', 'TodoList', 'Registration'];
-var links_JavaScript = ['E-commerce-vanillaJS/', 'Kasper/', 'TodoList/', 'Registration' ];
-var titles_JavaScript = ['E-commerce-vanillaJS', 'Kasper', 'TodoList', 'Registration'];
+var altImg_JavaScript = ['Ecommerce-NativeJS', 'Kasper', 'TodoList', 'Registration'];
+var links_JavaScript = ['Ecommerce-NativeJS/', 'Kasper/', 'Todolist/', 'Registration' ];
+var titles_JavaScript = ['Ecommerce-NativeJS', 'Kasper', 'TodoList', 'Registration'];
 
 var JavaScript__grid = document.getElementById("JavaScript__grid");
 JavaScript__grid.innerHTML = '';
 var i = 0;
 projects_JavaScript.forEach(project => {
-    if(i > 2){
-        JavaScript__grid.innerHTML += `
-        <a href="https://github.com/AmiraHassan2003/${links_JavaScript[i]}">
+    JavaScript__grid.innerHTML += `
+    <div>    
+    <a href="https://amirahassandev.github.io/${links_JavaScript[i]}">
             <div class="project__card">
                 <div class = "overlay">
                     <p>${titles_JavaScript[i]}</p>
                 </div>
                 <img src="assets/native_js/${project}" alt="${altImg_JavaScript[i]}">
             </div>
-        </a>`;
+        </a>
+        <a class="repo" href="https://github.com/amirahassandev/${links_JavaScript[i]}">
+            Repo
+        </a>
+    </div>`;
+    i++
     }
-    else{
-        JavaScript__grid.innerHTML += `
-        <a href="https://AmiraHassan2003.github.io/${links_JavaScript[i]}">
-            <div class="project__card">
-                <div class = "overlay">
-                    <p>${titles_JavaScript[i]}</p>
-                </div>
-                <img src="assets/native_js/${project}" alt="${altImg_JavaScript[i]}">
-            </div>
-        </a>`;
-    }
-    
-        i++;
-});
+
+);
 
 
 
