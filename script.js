@@ -130,6 +130,7 @@ var certificate_links =
         'Mastering_MYSQL.pdf',
         'web_development.pdf',
         '.Net/ASPDotNet_C%23Programming_JS_HTML.pdf',
+        'DataStructure.pdf',
     ];
 
 var certificate_titles = 
@@ -144,7 +145,7 @@ var certificate_titles =
         'Mastering MYSQL (Udemy)',
         'WEB DEVELOPMENT (udacity)',
         'ASP .Net C# Programming with JS and HTML (Udemy)',
-
+        'Data Structures (It-Sharks)',
     ];
 
 var certificate_desc = 
@@ -159,6 +160,7 @@ var certificate_desc =
     'Gained expertise in MySQL database creation, management, and query optimization. Learned to design efficient relational databases, write complex SQL queries, and manage data effectively using MySQL.',
     'Gained practical experience in building responsive websites using HTML and advanced CSS. Learned to customize and manage websites with WordPress, culminating in a final project that brought together design, structure, and functionality.',
     'I completed a Udemy course covering HTML, JavaScript, and ASP.NET with C#. I used it to refresh my JavaScript and OOP knowledge, while also strengthening my understanding of C# syntax and full-stack web development basics.',
+    'I have learned the concepts and implementation of fundamental data structures in C, including arrays, stacks, queues, linked lists, and binary search trees. This helped me understand how data is organized, stored, and accessed efficiently in memory, and improved my problem-solving and programming skills.',
 ];
 
 
