@@ -131,6 +131,7 @@ var certificate_links =
         'web_development.pdf',
         '.Net/ASPDotNet_C%23Programming_JS_HTML.pdf',
         'DataStructure.pdf',
+        'depi.png',
     ];
 
 var certificate_titles = 
@@ -146,6 +147,7 @@ var certificate_titles =
         'WEB DEVELOPMENT (udacity)',
         'ASP .Net C# Programming with JS and HTML (Udemy)',
         'Data Structures (It-Sharks)',
+        'Digital Egypt Pioneers Initiative (DEPI) - Python Programming & Data Management'
     ];
 
 var certificate_desc = 
@@ -161,6 +163,7 @@ var certificate_desc =
     'Gained practical experience in building responsive websites using HTML and advanced CSS. Learned to customize and manage websites with WordPress, culminating in a final project that brought together design, structure, and functionality.',
     'I completed a Udemy course covering HTML, JavaScript, and ASP.NET with C#. I used it to refresh my JavaScript and OOP knowledge, while also strengthening my understanding of C# syntax and full-stack web development basics.',
     'I have learned the concepts and implementation of fundamental data structures in C, including arrays, stacks, queues, linked lists, and binary search trees. This helped me understand how data is organized, stored, and accessed efficiently in memory, and improved my problem-solving and programming skills.',
+    'Completed an intensive specialization in Python backend development and relational data management through the MCIT Digital Egypt Pioneers Initiative. During this program, I engineered a robust Employee Data Management System, focusing on efficient file handling (CSV), search optimization, and implementing clean CRUD logic to ensure data integrity and system scalability',
 ];
 
 
