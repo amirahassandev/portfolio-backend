@@ -73,7 +73,7 @@ projects_cSharp.forEach(project => {
 });
 
 
-var projects_net = ['newspaper.png', 'company.png', 'E-Commerce-APIs.png', ''];
+var projects_net = ['newspaper.png', 'company.png', 'E-Commerce-APIs.png', 'Hospital_Database.jpg'];
 var altImg_net = ['newspaper', 'company', 'E-Commerce', 'Hospital_Management_System'];
 var links_net = ['Newspaper', 'Company', 'E-Commerce_APIs', 'Hospital_Management_System'];
 var titles_net = ['Newspaper', 'Company', 'E-Commerce_APIs', 'Hospital_Management_System'];
