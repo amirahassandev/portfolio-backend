@@ -82,7 +82,7 @@ net__grid.innerHTML = '';
 var i = 0;
 projects_net.forEach(project => {
     net__grid.innerHTML += `
-        <a href="https://github.com/AmiraHassan2003/${links_net[i]}">
+        <a href="https://github.com/amirahassandev/${links_net[i]}">
             <div class="project__card">
                 <div class = "overlay">
                     <p>${titles_net[i]}</p>
