@@ -31,7 +31,8 @@ projects_JavaScript.forEach(project => {
 
 var projects_React = ['todoList.png'];
 var altImg_React = ['todoList'];
-var links_React = ['Todolist_React/'];
+var links_github_React = ['Todolist_React/']
+var links_React = ['https://poetic-melomakarona-6b80e8.netlify.app/'];
 var titles_React = ['Todolist_React'];
 
 var React__grid = document.getElementById("React__grid");
@@ -40,7 +41,7 @@ var i = 0;
 projects_React.forEach(project => {
     React__grid.innerHTML += `
     <div>    
-    <a href="https://amirahassandev.github.io/${links_React[i]}">
+    <a href="${links_React[i]}">
             <div class="project__card">
                 <div class = "overlay">
                     <p>${titles_React[i]}</p>
@@ -48,7 +49,7 @@ projects_React.forEach(project => {
                 <img src="assets/React/${project}" alt="${altImg_React[i]}">
             </div>
         </a>
-        <a class="repo" href="https://github.com/amirahassandev/${links_React[i]}">
+        <a class="repo" href="https://github.com/amirahassandev/${links_github_React[i]}">
             Repo
         </a>
     </div>`;
