@@ -29,6 +29,36 @@ projects_JavaScript.forEach(project => {
 
 
 
+var projects_React = ['todoList.png'];
+var altImg_React = ['todoList'];
+var links_React = ['Todolist_React/'];
+var titles_React = ['Todolist_React'];
+
+var React__grid = document.getElementById("React__grid");
+React__grid.innerHTML = '';
+var i = 0;
+projects_React.forEach(project => {
+    React__grid.innerHTML += `
+    <div>    
+    <a href="https://amirahassandev.github.io/${links_React[i]}">
+            <div class="project__card">
+                <div class = "overlay">
+                    <p>${titles_React[i]}</p>
+                </div>
+                <img src="assets/React/${project}" alt="${altImg_React[i]}">
+            </div>
+        </a>
+        <a class="repo" href="https://github.com/amirahassandev/${links_React[i]}">
+            Repo
+        </a>
+    </div>`;
+    i++
+    }
+
+);
+
+
+
 var projects_django = ['Doctors_hup.png', 'todoList_django.png'];
 var altImg_django = ['Doctors_hup', 'todoList_django'];
 var links_django = ['DoctorsHubApplication', 'todoList_django'];
