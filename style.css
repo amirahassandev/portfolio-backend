@@ -147,7 +147,7 @@ header .tracks{
     color: gray;
 }
 
-.skills__list{
+.box__card .skills__list{
     list-style: none;
 }
 
