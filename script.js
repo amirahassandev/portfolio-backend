@@ -29,11 +29,11 @@ projects_JavaScript.forEach(project => {
 
 
 
-var projects_React = ['todoList.png'];
-var altImg_React = ['todoList'];
-var links_github_React = ['Todolist_React/']
-var links_React = ['https://poetic-melomakarona-6b80e8.netlify.app/'];
-var titles_React = ['Todolist_React'];
+var projects_React = ['todoList.png', 'loan.png'];
+var altImg_React = ['todoList', 'loan'];
+var links_github_React = ['Todolist_React/', 'Loan-Application-Form-UI-Frontend-Simulation-']
+var links_React = ['https://poetic-melomakarona-6b80e8.netlify.app/', 'https://soft-tanuki-ad9e96.netlify.app/'];
+var titles_React = ['Todolist_React', 'LoanAppFormUI'];
 
 var React__grid = document.getElementById("React__grid");
 React__grid.innerHTML = '';
