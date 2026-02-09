@@ -147,6 +147,9 @@ header .tracks{
     color: gray;
 }
 
+.skills__list{
+    list-style: none;
+}
 
 .about,
 .project{
