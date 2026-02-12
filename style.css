@@ -217,6 +217,17 @@ footer,
     margin-bottom: 10%;
 }
 
+.box__card .skills__list .icons{
+    width:30px; 
+    margin-right:5px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+
+.box__card .skills__list .icons:hover{
+    transform: scale(1.5);
+}
+
 .project__grid{
     grid-template-columns: repeat(2, 1fr);
 }
