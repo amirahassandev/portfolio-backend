@@ -31,8 +31,8 @@ projects_JavaScript.forEach(project => {
 
 var projects_React = ['todoList.png', 'loan.png'];
 var altImg_React = ['todoList', 'loan'];
-var links_github_React = ['Todolist_React/', 'Loan-Application-Form-UI-Frontend-Simulation-']
-var links_React = ['https://poetic-melomakarona-6b80e8.netlify.app/', 'https://soft-tanuki-ad9e96.netlify.app/'];
+var links_github_React = ['Todolist_React/', 'LoanApplicationFormUI']
+var links_React = ['https://amirahassandev.github.io/Todolist_React/', 'https://amirahassandev.github.io/LoanApplicationFormUI/'];
 var titles_React = ['Todolist_React', 'LoanAppFormUI'];
 
 var React__grid = document.getElementById("React__grid");
