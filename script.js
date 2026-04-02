@@ -29,11 +29,11 @@ projects_JavaScript.forEach(project => {
 
 
 
-var projects_React = ['todoList.png', 'loan.png'];
-var altImg_React = ['todoList', 'loan'];
-var links_github_React = ['Todolist_React/', 'LoanApplicationFormUI']
-var links_React = ['https://amirahassandev.github.io/Todolist_React/', 'https://amirahassandev.github.io/LoanApplicationFormUI/'];
-var titles_React = ['Todolist_React', 'LoanAppFormUI'];
+var projects_React = ['todoList.png', 'loan.png', 'forecastly.png'];
+var altImg_React = ['todoList', 'loan', 'forecastly'];
+var links_github_React = ['Todolist_React/', 'LoanApplicationFormUI', 'Forecastly']
+var links_React = ['https://amirahassandev.github.io/Todolist_React/', 'https://amirahassandev.github.io/LoanApplicationFormUI/', 'https://forecastly-4h8y.vercel.app/'];
+var titles_React = ['Todolist_React', 'LoanAppFormUI', 'Forecastly'];
 
 var React__grid = document.getElementById("React__grid");
 React__grid.innerHTML = '';
