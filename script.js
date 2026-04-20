@@ -131,7 +131,7 @@ var altImg_php = ['mini-school(CRUD)'];
 var links_php = ['amirahassandev/miniSchool_CRUDStudent'];
 var titles_php = ['mini-school-students(CRUD)'];
 
-var php__grid = document.getElementById("springboot__grid");
+var php__grid = document.getElementById("php__grid");
 php__grid.innerHTML = '';
 var i = 0;
 projects_php.forEach(project => {
