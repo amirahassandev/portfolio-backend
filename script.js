@@ -126,6 +126,28 @@ projects_net.forEach(project => {
 });
 
 
+var projects_php = ['mini-school.png'];
+var altImg_php = ['mini-school(CRUD)'];
+var links_php = ['amirahassandev/miniSchool_CRUDStudent'];
+var titles_php = ['mini-school-students(CRUD)'];
+
+var php__grid = document.getElementById("springboot__grid");
+php__grid.innerHTML = '';
+var i = 0;
+projects_php.forEach(project => {
+    php__grid.innerHTML += `
+        <a href="https://github.com/${links_php[i]}">
+            <div class="project__card">
+                <div class = "overlay">
+                    <p>${titles_php[i]}</p>
+                </div>
+                <img src="assets/php/${project}" alt="${altImg_php[i]}">
+            </div>
+        </a>`;
+        i++;
+});
+
+
 var projects_springboot = ['E-commerce.png', 'TryAndBuy.png'];
 var altImg_springboot = ['E-commerce', 'Try&Buy'];
 var links_springboot = ['AmiraHassan2003/Project_Software_two', 'amirahassandev/TryAndBuy_GradProject'];
